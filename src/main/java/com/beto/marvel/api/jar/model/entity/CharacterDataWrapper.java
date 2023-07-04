@@ -13,18 +13,18 @@ public class CharacterDataWrapper {
 
     private CharacterDataContainer data;
 
-    public class CharacterDataContainer {
+    public static class CharacterDataContainer {
         public List<Character> results;
     }
 
-    public class Character {
+    public static class Character {
         public int id;
         public String name;
         public String description;
         public Image thumbnail;
     }
 
-    public class Image {
+    public static class Image {
         public String path;
         public String extension;
     }

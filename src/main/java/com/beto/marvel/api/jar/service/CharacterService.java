@@ -37,6 +37,7 @@ public class CharacterService {
     public CharacterDataWrapper findById(int characterId) throws IOException {
 
         String url = URL + "/" + characterId + "?apikey=" + API_KEY + "&ts=" + TS + "&hash=" + HASH;
+        System.out.println("url: " + URL);
 
         return httpGet(url);
 
